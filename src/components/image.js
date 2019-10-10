@@ -28,14 +28,17 @@ export const NavImage = () => {
   `)
 
   return (
-    <div style={{
-      display: `flex`,
-      alignItems: `center`,
-      justifyContent: `space-around`
-    }}>
+    <div 
+      style={{
+        display: `flex`,
+        alignItems: `center`,
+        justifyContent: `space-around`
+      }}
+      className={`footer`}
+    >
       <Img 
-        title={`hello`}
-        alt={`hello`}
+        title={`Mobster Couple`}
+        alt={`mobster couple with city in the background`}
         fixed={data.first.childImageSharp.fixed}
         style={{
           borderRadius: `5px`,
@@ -43,8 +46,8 @@ export const NavImage = () => {
         }}
       />
       <Img 
-        title={`hello`}
-        alt={`hello`}
+        title={`Roaring Twenties`}
+        alt={`twenties car with person in the foreground`}
         fixed={data.second.childImageSharp.fixed}
         style={{
           borderRadius: `5px`,
@@ -52,8 +55,8 @@ export const NavImage = () => {
         }}
       />
       <Img 
-        title={`hello`}
-        alt={`hello`}
+        title={`Prohibiton Over`}
+        alt={`prohibtion is over image`}
         fixed={data.third.childImageSharp.fixed}
         style={{
           borderRadius: `5px`,

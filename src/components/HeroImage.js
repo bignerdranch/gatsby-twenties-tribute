@@ -26,8 +26,8 @@ const HeroImage = (props) => {
   `)
 
   return <Img 
-    title={`hello`}
-    alt={`hello`}
+    title={`gangster hero image`}
+    alt={`mobster couple with city in the background`}
     sizes={data.file.childImageSharp.sizes}
   />
 }
